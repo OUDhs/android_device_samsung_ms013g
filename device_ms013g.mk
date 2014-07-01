@@ -21,9 +21,9 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
  	fstab.qcom
 
-# TWRP
+# Philz
 PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+    $(LOCAL_PATH)/extra.fstab:recovery/root/etc/extra.fstab
 
 $(call inherit-product, build/target/product/full.mk)
 
